@@ -8,7 +8,7 @@
 <p>API</p>
 <br>
 <ul>
-	<li>link:<a href="http://demo6508572.mockable.io/api-lefrancois">http://demo6508572.mockable.io/api-lefrancois</a></li>
+	<li>link: <a href="http://demo6508572.mockable.io/api-lefrancois" target="_blank">http://demo6508572.mockable.io/api-lefrancois</a></li>
 	<li>Autor: Guilherme Luiz Garcia Lefrançois</li>
 	<li>Visto por ultimo em: 12/11/2020</li>
 </ul>
