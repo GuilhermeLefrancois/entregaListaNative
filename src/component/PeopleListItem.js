@@ -6,6 +6,7 @@ const PeopleListItem = props =>
     const {people, onPressItemDetails} = props
     const { nome } = people.nome
     return (
+        
         <TouchableOpacity onPress={() => {onPressItemDetails(people)}}>
             <View style={style.line}>
                 <Image style={style.avatar} source={{uri: people.foto}}/>
@@ -39,6 +40,5 @@ const style = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#000000'
     }
-}
-)
+})
 export default PeopleListItem

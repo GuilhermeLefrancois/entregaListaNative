@@ -1,5 +1,6 @@
 import React from 'react';
-import {ScrollView, Text, StyleSheet, Image, SafeAreaView, View, Dimensions} from 'react-native'
+import {ScrollView, Text, StyleSheet, Image, SafeAreaView, View, Dimensions, ImageBackground} from 'react-native'
+import { color } from 'react-native-reanimated';
 import PeopleListItem from './PeopleListItem'
  
 const PeopleList = props => 
@@ -13,11 +14,14 @@ const PeopleList = props =>
     })
 
     return (
-        <ScrollView style={style.scroll}>
-            <View style={style.container}>
-                {items}
-            </View>
-        </ScrollView>
+            <ScrollView style={style.scroll}>
+                <ImageBackground source={{uri:"https://img.freepik.com/vetores-gratis/fundo-abstrato-tecnologia-azul_1035-17929.jpg?size=626&ext=jpg"}} style={style.image}>
+                    <View style={style.container}>
+                        {items}
+                    </View>
+                </ImageBackground>
+            </ScrollView>
+        
     )
     
 }
@@ -25,14 +29,21 @@ const PeopleList = props =>
 const style = StyleSheet.create({
     container: 
     {
-        backgroundColor: '#DDDDDD',
+        backgroundColor: '#FFFFFF',
         marginHorizontal: 'auto',
-        width: 1100
+        width: 300,
+        color: '#FFFFFF'
     },
     scroll:
     {
         flex: 1,
 		backgroundColor: '#FFF'
+    },
+    image:
+    {
+        flex: 1,
+        resizeMode: "cover",
+        justifyContent: "center"
     }
 })
  
