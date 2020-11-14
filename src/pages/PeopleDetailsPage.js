@@ -51,7 +51,7 @@ const style = StyleSheet.create
   },
   text: 
   {
-		fontFamily: 'Cochin',
+	fontFamily: 'Cochin',
     fontSize: 14,
     display: 'flex',
     flexWrap: 'wrap',
