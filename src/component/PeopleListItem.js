@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
- 
+//teste
 const PeopleListItem = props => 
 {
     const {people, onPressItemDetails} = props
