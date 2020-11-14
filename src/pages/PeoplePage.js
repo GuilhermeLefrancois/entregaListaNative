@@ -9,7 +9,7 @@ export default class PeoplePage extends React.Component
 {
   constructor(props)
   {
-    super(props);
+    super(props)
     this.state= 
     {
       peoples: []
@@ -31,7 +31,7 @@ export default class PeoplePage extends React.Component
         <View>
             <PeopleList peoples={this.state.peoples} onPressItem={(people) => {this.props.navigation.navigate('Detalhes da Pessoa', {people: people})}} /> 
         </View>
-    );
+    )
   }
  
 }
